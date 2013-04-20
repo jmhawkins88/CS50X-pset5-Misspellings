@@ -1,0 +1,30 @@
+0.  A factitious word alleged to mean 'a lung disease caused by the inhalation of
+    of very fine silica dust.' It occurs chiefly as an instance of a long word.
+
+1.  Returns resource usage
+
+2.  16
+
+3.  To calculate how many resources were being used before dictionary was loaded and
+    after dictionary was loaded to get time it took. &before and &after will point to 
+    different numbers.
+    
+4.  Main uses a for loop that initializes c with fgetc in order to read in words from the
+    file and first check if their alphabetical or a comma, then checks to see if the index of
+    word is greater than 0. If so, the word will counter be updates. Next main checks to see if
+    the words in the dictionary, if it's not the missplled words counter is updated.
+    
+5.  fgetc reads until a new line and also stores it. Fscanf with %s specifier reads until any
+    blank space and doesn't store it.
+    
+6.  Const char* is a pointer that always points to the same thing. A function can't change what
+    pointer points to.
+    
+7.  A hash table with 1000000 buckets. Inside each bucket is a node or list of nodes and inside
+    the nodes contain the word string and the pointer to the next node.
+
+8.  Total: .71
+
+9. Changed hash to global variable and changed size of hashtable
+
+10. No
